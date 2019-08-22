@@ -37,5 +37,6 @@
     "prettier": "^1.18.2",
     "tslint": "^5.19.0",
     "tslint-react": "^4.0.0"
-  }
+  },
+  "license": "MIT"
 }
