@@ -16,10 +16,10 @@ npm i   # You must have npm and nodejs installed
 ```
 
 #### 3º Add images
-Add your images in public/images/
+Add your images in src/assets/images/
 
 #### 4º Edit tour.json
-Edit tour.json in public/
+Edit tour.json in src/assets/
 
 #### 5º Explore your tour!
 ```bash
