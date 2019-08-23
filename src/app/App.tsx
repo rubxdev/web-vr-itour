@@ -2,6 +2,7 @@ import 'aframe'
 import { Entity, Scene } from 'aframe-react'
 import React from 'react'
 import { TourScene, useStore } from '../store'
+import './App.css'
 
 const App: React.FC = () => {
   const store = useStore()
@@ -11,9 +12,11 @@ const App: React.FC = () => {
 
   return (
     <>
-      <Scene>
-        <Entity primitive="a-sky" src={`/images/${scene.image}`} />
-      </Scene>
+      <div className={'scene-wrapper'}>
+        <Scene>
+          <Entity primitive="a-sky" src={`/images/${scene.image}`} />
+        </Scene>
+      </div>
     </>
   )
 }
