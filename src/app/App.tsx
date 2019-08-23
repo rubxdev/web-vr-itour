@@ -1,7 +1,6 @@
 import 'aframe'
 import { Entity, Scene } from 'aframe-react'
 import React from 'react'
-import VRSwitchButton from '../components/VRSwitchButton'
 import { TourScene, useStore } from '../store'
 
 const App: React.FC = () => {
@@ -15,7 +14,6 @@ const App: React.FC = () => {
       <Scene>
         <Entity primitive="a-sky" src={`/images/${scene.image}`} />
       </Scene>
-      <VRSwitchButton />
     </>
   )
 }
