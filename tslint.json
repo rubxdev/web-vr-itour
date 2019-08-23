@@ -9,6 +9,7 @@
     "jsx-no-lambda": false,
     "ordered-imports": false,
     "arrow-return-shorthand": true,
+    "arrow-parens": false,
     "callable-types": true,
     "class-name": true,
     "comment-format": [
