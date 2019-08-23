@@ -14,4 +14,6 @@ export interface TourScene {
 export interface State {
   scenes: TourScene[]
   currentSceneId: string
+  vrSwitchButtonIcon: string
+  isVREnabled: boolean
 }
